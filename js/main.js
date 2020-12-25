@@ -69,8 +69,17 @@ jQuery(document).ready(function ($) {
                 },
 
             },
-            submitHandler: function () {
-                console.log('2222');
+            submitHandler: function (form) {
+
+                $.ajax({
+                    url: '/ajax/send.php',
+                    type: form.method,
+                    data: $(form).serialize(),
+                    success: function(response) {
+                        console.log(response);
+                    }
+                });
+
                 return false;
             }
         });
