@@ -52,5 +52,29 @@ jQuery(document).ready(function ($) {
         //console.log(f_name);
         $("#input__file_name").html(f_name.join(", "));
     });
+
+    if ($("#form1").length > 0) {
+        $("#form1").validate({
+            errorElement: "span",
+            messages: {
+                name: {
+                    required: "Укажите ФИО",
+                },
+                email: {
+                    required: "Укажите E-mail",
+                    email: "Неверный формат E-mail"
+                },
+                phone: {
+                    required: "Укажите номер телефона",
+                },
+
+            },
+            submitHandler: function () {
+                console.log('2222');
+                return false;
+            }
+        });
+    }
+
 });
 new Vivus('mainSvg', {duration: 100});

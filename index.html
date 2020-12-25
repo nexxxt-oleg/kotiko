@@ -4259,25 +4259,25 @@
     <div class="container">
         <aside class="kotiko__feedback">
             <h3 class="kotiko__feedback__caption">Мы с радостью сделаем бесплатную оценку вашего проекта</h3>
-            <form class="kotiko__feedback__form">
+            <form class="kotiko__feedback__form" id="form1">
                 <div class="d-flex">
                     <div class="kotiko__feedback__form__inner">
                         <div class="row kotiko__feedback__form__row1">
                             <div class="col-lg-4">
                                 <div class="input-field">
-                                    <input id="name" type="text" name="name" class="validate">
+                                    <input id="name" type="text" name="name" class="validate" required>
                                     <label for="name">Ваше имя</label>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="input-field">
-                                    <input id="email" type="email" name="email" class="validate">
+                                    <input id="email" type="email" name="email" class="validate" required>
                                     <label for="email">E-mail</label>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="input-field">
-                                    <input id="phone" type="tel" name="phone" class="validate">
+                                    <input id="phone" type="tel" name="phone" class="validate" required>
                                     <label for="phone">Телефон</label>
                                 </div>
                             </div>
@@ -4300,10 +4300,10 @@
                             </div>
                             <div class="col-lg-8">
                                 <label class="kotiko__label-chekbox">
-                                    <input type="checkbox" value="1" name="pk" checked>
+                                    <input type="checkbox" value="1" name="pk" checked required>
                                     <span>
                                         Я даю согласие на обработку персональных данных и
-соглашаюсь с политикой конфиденциальности
+                                        соглашаюсь с политикой конфиденциальности
                                     </span>
                                 </label>
                             </div>
