@@ -1,0 +1,355 @@
+.kotiko__header {
+  background-color: #f1c93e;
+  .kotiko__header__top-row {
+    padding: 33px 0 0;
+  }
+  .kotiko__header__text {
+    height: 648px;
+    h1 {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .kotiko__header__graf {
+    position: relative;
+    height: 648px;
+    .kotiko__header__graf__svg {
+      position: absolute;
+      top: 60px;
+      z-index: 10;
+      left: 15px;
+      display: block;
+    }
+  }
+}
+.kotiko__skills__title {
+  padding-top: 90px;
+  text-align: center;
+  padding-bottom: 90px;
+  h2 {
+    font-weight: bold;
+    color: #898989;
+    b {
+      color: #000;
+    }
+  }
+}
+.kotiko__skills__caption {
+  text-align: center;
+  padding: 0 0 70px 0;
+  font-size: 36px;
+  line-height: 1;
+  font-weight: bold;
+  color: #050505;
+}
+.kotiko__skills__item {
+  padding-bottom: 50px;
+  svg {
+    max-width: 65px;
+    width: 100%;
+    height: auto;
+  }
+  h3 {
+    margin: 0;
+    font-family: 'Raleway';
+    font-weight: 800;
+    color: #050505;
+    font-size: 22px;
+    line-height: 28px;
+    padding-bottom: 20px;
+  }
+}
+p {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 14px;
+  line-height: 24px;
+  color: #050505;
+}
+.kotiko__skills__list {
+  padding-bottom: 30px;
+}
+.kotiko__portfolio {
+  padding: 100px 0;
+  background-color: #f7f7f7;
+  .kotiko__portfolio__caption {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 50px;
+    font-family: Raleway;
+  }
+}
+.kotiko__portfolio__slider {
+  margin: 0 -240px;
+  .kotiko__portfolio__item {
+    padding: 0 15px;
+    figure {
+      position: relative;
+      z-index: 1;
+      display: block;
+      margin: 0;
+      img {
+        display: block;
+        position: relative;
+        z-index: 1;
+      }
+      figcaption {
+        position: absolute;
+        z-index: 10;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        padding: 0 0 25px 25px;
+        font-size: 16px;
+        line-height: 1.3;
+        color: #fff;
+        font-family: Raleway;
+        b {
+          display: block;
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+    }
+    &.kotiko__portfolio__item--black {
+      figcaption {
+        color: #050505 !important;
+      }
+    }
+  }
+}
+.kotiko__portfolio__nav {
+  display: flex;
+  padding-top: 40px;
+  .kotiko__portfolio__slider-nav {
+    display: flex;
+    margin-left: auto;
+  }
+  .slick-arrow {
+    margin-left: 20px;
+  }
+}
+.kotiko__link {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #050505;
+}
+.slick-arrow {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  svg {
+    width: 24px;
+    height: auto;
+    opacity: 0.5;
+  }
+  &:hover {
+    background-color: #f1c93f;
+    svg {
+      opacity: 1;
+    }
+  }
+}
+div:focus,
+button:focus{
+  outline: none !important;
+}
+.kotiko__feedback__form__submit {
+  flex-basis: 220px;
+  max-width: 220px;
+  min-width: 220px;
+  padding-left: 30px;
+  .kotiko__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    height: 190px;
+    border: 3px solid #050505;
+    background-color: transparent;
+    span {
+      text-align: center;
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+      position: relative;
+      z-index: 10;
+      color: #050505;
+      svg {
+        display: block;
+        margin: 0 auto 15px;
+      }
+    }
+  }
+}
+.kotiko__feedback__form__inner {
+  flex-grow: 1;
+
+}
+.kotiko__feedback {
+  background-color: #f1c93f;
+  padding: 75px 80px 70px;
+  margin: 90px 0 110px;
+  .kotiko__feedback__caption {
+    padding: 0 0 60px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 800;
+    font-family: 'Raleway';
+  }
+}
+.kotiko__carusel:not(.slick-initialized) {
+  overflow: hidden;
+  width: 1000%;
+  & > div {
+    float: left;
+  }
+}
+.kotiko__input__wrapper {
+  position: relative;
+  .kotiko__input__file {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    width: 0.4px;
+    height: 0.4px;
+  }
+  .kotiko__input__label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 30px;
+    height: 22px;
+    background: url("../img/file.svg") 0 50% no-repeat;
+    background-size: auto 20px;
+    span {
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 500;
+      font-family: 'Raleway';
+      color: #050505;
+      display: inline-block;
+      border-bottom: 1px dotted #050505;
+    }
+  }
+}
+.kotiko__label-chekbox {
+  display: block;
+  input {
+    display: none;
+  }
+  span {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    height: auto !important;
+    color: #050505;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: 'Raleway';
+  }
+}
+.kotiko__footer__wrap {
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  padding: 40px 0;
+}
+.kotiko__footer {
+  .nav--soc {
+    justify-content: flex-end;
+    display: flex;
+    margin: 0;
+    li {
+      padding-left: 15px;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #f7f7f7;
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+        &:hover {
+          text-decoration: none;
+          background-color: #f1c93f;
+        }
+      }
+    }
+  }
+  .kotiko__footer__nav {
+    height: 30px;
+    line-height: 30px;
+    .nav {
+      display: flex;
+      align-items: center;
+      height: 30px;
+      line-height: 30px;
+      li {
+        padding-right: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
+.kotiko__footer__nav__link {
+  position: relative;
+  display: inline-block;
+  color: #050505;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 24px;
+  border-bottom: 1px solid transparent;
+  padding: 0;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 0;
+    border-bottom: 1px solid #f1c93f;
+    color: #f1c93f;
+    content: attr(data-hover);
+    -webkit-transition: max-width 0.3s;
+    -moz-transition: max-width 0.3s;
+    transition: max-width 0.3s;
+    white-space: nowrap;
+  }
+  &:hover {
+    &::before {
+      max-width: 100%;
+    }
+  }
+}
+.kotiko__footer__bottom {
+  padding: 30px 0;
+  a, span {
+    color: #050505;
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
