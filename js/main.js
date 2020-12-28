@@ -27,16 +27,25 @@ jQuery(document).ready(function ($) {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 3
+                    centerPadding: '100px',
+                    slidesToShow: 1
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 460,
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '40px',
+                    centerPadding: '50px',
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 360,
+                settings: {
+                    arrows: false,
+                    centerMode: false,
+                    centerPadding: '0px',
                     slidesToShow: 1
                 }
             }

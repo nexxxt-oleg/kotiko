@@ -11083,6 +11083,18 @@ html {
   visibility: hidden !important;
 }
 
+.kotiko {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.kotiko__header__graf__svg {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
 .kotiko__header {
   background-color: #f1c93e;
 }
@@ -11188,6 +11200,10 @@ p {
   display: block;
   position: relative;
   z-index: 1;
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .kotiko__portfolio__slider .kotiko__portfolio__item figure figcaption {
   position: absolute;
@@ -12139,6 +12155,178 @@ button:focus {
 .cot {
   -webkit-animation: kot_animate 8s ease-in infinite;
           animation: kot_animate 8s ease-in infinite;
+}
+
+@media (max-width: 991px) {
+  .kotiko__header .kotiko__header__text {
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .kotiko__portfolio__slider .kotiko__portfolio__item figure figcaption {
+    width: 80%;
+  }
+
+  .kotiko__footer__col-logo {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+
+  .kotiko__footer__col-nav {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+
+  .kotiko__footer__col-soc {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+
+  .kotiko__footer__nav {
+    padding-top: 30px;
+    height: auto !important;
+  }
+  .kotiko__footer__nav .nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .kotiko__portfolio__slider {
+    margin: 0 -120px;
+  }
+
+  .kotiko__portfolio__slider .kotiko__portfolio__item figure img {
+    height: 380px;
+  }
+
+  .kotiko__feedback {
+    margin: 50px 0;
+    padding: 30px;
+  }
+  .kotiko__feedback .kotiko__feedback__caption {
+    padding-bottom: 30px;
+  }
+  .kotiko__feedback .kotiko__feedback__form > .d-flex {
+    display: block !important;
+  }
+
+  .kotiko__input__wrapper {
+    height: 100px;
+  }
+
+  .kotiko__feedback__form__submit {
+    padding-top: 30px;
+    padding-left: 0;
+  }
+
+  .kotiko__footer__nav .nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto !important;
+  }
+  .kotiko__footer__nav .nav li {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    padding-right: 0 !important;
+    padding-bottom: 5px;
+  }
+  .kotiko__footer__nav .nav li a {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+}
+@media (max-width: 460px) {
+  .kotiko__header .kotiko__header__text h1 {
+    font-size: 36px;
+  }
+
+  .kotiko__header .kotiko__header__graf {
+    height: auto !important;
+    padding-bottom: 50px;
+  }
+
+  .kotiko__header .kotiko__header__graf .kotiko__header__graf__svg {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+
+  .kotiko__skills__title {
+    padding: 50px 0 30px;
+  }
+  .kotiko__skills__title h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .kotiko__skills__caption {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .kotiko__portfolio {
+    padding: 50px 0;
+  }
+
+  .kotiko__portfolio__slider {
+    margin: 0 -30px;
+  }
+
+  .kotiko__portfolio__slider .kotiko__portfolio__item figure img {
+    height: auto;
+  }
+
+  .kotiko__feedback .kotiko__feedback__caption {
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 360px) {
+  .kotiko__header__logo, .kotiko__footer__logo {
+    text-align: center;
+    display: block;
+  }
+
+  .kotiko__header .kotiko__header__text h1,
+  .kotiko__portfolio .kotiko__portfolio__caption {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .kotiko__portfolio .kotiko__portfolio__caption {
+    padding-top: 0;
+  }
+
+  .kotiko__portfolio__slider {
+    margin: 0;
+  }
+
+  .kotiko__footer .nav--soc {
+    padding-top: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .kotiko__footer .kotiko__footer__nav .nav li {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+
+  .kotiko__footer__bottom {
+    display: block !important;
+    text-align: center;
+  }
+  .kotiko__footer__bottom span {
+    display: block;
+    padding-bottom: 5px;
+  }
 }
 
 /*# sourceMappingURL=materialize.css.map */
