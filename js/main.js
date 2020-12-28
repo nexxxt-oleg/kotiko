@@ -70,13 +70,26 @@ jQuery(document).ready(function ($) {
 
             },
             submitHandler: function (form) {
-
+                var formData = new FormData();
+                if ($("#input__file").val() !== '') {
+                    formData.append('file', $('#input__file')[0].files[0]);
+                }
+                formData.append('name', $('#name').val());
+                formData.append('email', $('#email').val());
+                formData.append('phone', $('#phone').val());
+                formData.append('project', $('#project').val());
                 $.ajax({
                     url: '/ajax/send.php',
                     type: form.method,
-                    data: $(form).serialize(),
+                    contentType: false,
+                    processData: false,
+                    cache: false,
+                    data: formData,
                     success: function(response) {
-                        console.log(response);
+                        if(response == 1) {
+                            $("#form1")[0].reset();
+                            swal("Сообщение отправлено", "", "success");
+                        }
                     }
                 });
 
@@ -84,6 +97,7 @@ jQuery(document).ready(function ($) {
             }
         });
     }
+
 
 });
 new Vivus('mainSvg', {duration: 100});
