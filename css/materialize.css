@@ -11752,6 +11752,9 @@ html {
   background-image: -webkit-gradient(linear, left top, right top, from(#f4f9fc), to(#c7def5));
   background-image: linear-gradient(90deg, #f4f9fc 0%, #c7def5 100%);
 }
+.kotiko__header--portfolio.kotiko__header--colapsar {
+  background-image: linear-gradient(110deg, #fd464a 0%, #fd9193 100%);
+}
 
 .kotiko__portfolio__adv {
   position: relative;
@@ -11805,6 +11808,9 @@ html {
   height: 60px;
   border-radius: 30px;
   background-color: #c7def5;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__link-site .kotiko__portfolio__footer__link-site__ico.kotiko__portfolio__footer__link-site__ico--colapsar {
+  background-image: linear-gradient(110deg, #fd464a 0%, #fd9193 100%);
 }
 .kotiko__portfolio__footer .kotiko__portfolio__footer__pagination {
   display: -webkit-box;
@@ -11879,6 +11885,10 @@ html {
 }
 .kotiko__portfolio__footer .kotiko__portfolio__footer__pagination__all a:hover {
   text-decoration: none;
+}
+
+.kotiko__text-box ul.kotiko__text-box__ul-red li::after {
+  background-color: #de4646 !important;
 }
 
 .kotiko {
@@ -12380,8 +12390,8 @@ button:focus {
 .kotiko__text-box .kotiko__portfolio__img-shadow img {
   display: block;
   margin: 0 auto;
-  -webkit-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.1);
 }
 
 .pb-6 {

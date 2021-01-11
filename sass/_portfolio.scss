@@ -19,6 +19,12 @@
       background-image: -ms-linear-gradient( 90deg, rgb(244,249,252) 0%, rgb(199,222,245) 100%);
       background-image: linear-gradient( 90deg, rgb(244,249,252) 0%, rgb(199,222,245) 100%);
   }
+  &.kotiko__header--colapsar {
+    background-image: -moz-linear-gradient( 110deg, rgb(253,70,74) 0%, rgb(253,145,147) 100%);
+    background-image: -webkit-linear-gradient( 110deg, rgb(253,70,74) 0%, rgb(253,145,147) 100%);
+    background-image: -ms-linear-gradient( 110deg, rgb(253,70,74) 0%, rgb(253,145,147) 100%);
+    background-image: linear-gradient( 110deg, rgb(253,70,74) 0%, rgb(253,145,147) 100%);
+  }
 }
 .kotiko__portfolio__adv {
   position: relative;
@@ -59,6 +65,12 @@
       height: 60px;
       border-radius: 30px;
       background-color: #c7def5;
+      &.kotiko__portfolio__footer__link-site__ico--colapsar {
+          background-image: -moz-linear-gradient( 110deg, rgb(253,70,74) 0%, rgb(253,145,147) 100%);
+          background-image: -webkit-linear-gradient( 110deg, rgb(253,70,74) 0%, rgb(253,145,147) 100%);
+          background-image: -ms-linear-gradient( 110deg, rgb(253,70,74) 0%, rgb(253,145,147) 100%);
+          background-image: linear-gradient( 110deg, rgb(253,70,74) 0%, rgb(253,145,147) 100%);
+      }
     }
   }
   .kotiko__portfolio__footer__pagination {
@@ -112,4 +124,7 @@
       }
     }
   }
+}
+.kotiko__text-box ul.kotiko__text-box__ul-red li::after {
+  background-color: #de4646 !important;
 }
