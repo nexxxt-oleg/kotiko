@@ -1,0 +1,115 @@
+.kotiko__header--portfolio {
+  padding-bottom: 310px;
+  .kotiko__portfolio-desc {
+    padding-top: 100px;
+    min-height: 215px;
+    padding-bottom: 30px;
+    text-align: center;
+    h1 {
+      @include font_caption('44px', 1.3);
+      padding-bottom: 30px;
+    }
+    p {
+      @include font_r('18px', 24px, 500)
+    }
+  }
+  &.kotiko__header--web2print {
+      background-image: -moz-linear-gradient( 90deg, rgb(244,249,252) 0%, rgb(199,222,245) 100%);
+      background-image: -webkit-linear-gradient( 90deg, rgb(244,249,252) 0%, rgb(199,222,245) 100%);
+      background-image: -ms-linear-gradient( 90deg, rgb(244,249,252) 0%, rgb(199,222,245) 100%);
+      background-image: linear-gradient( 90deg, rgb(244,249,252) 0%, rgb(199,222,245) 100%);
+  }
+}
+.kotiko__portfolio__adv {
+  position: relative;
+  z-index: 10;
+  margin-top: -260px;
+  .kotiko__portfolio__adv__pc {
+    padding-bottom: 110px;
+    display: block;
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+.kotiko__portfolio__full-img {
+  display: block;
+  padding: 50px 0;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.kotiko__portfolio__footer {
+  padding-bottom: 50px;
+  padding-top: 100px;
+  .kotiko__portfolio__footer__link-site {
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #050505;
+    @include font_r(30px, 40px, 800);
+    .kotiko__portfolio__footer__link-site__ico {
+      justify-content: center;
+      margin: 0 auto 10px;
+      display: flex;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+      background-color: #c7def5;
+    }
+  }
+  .kotiko__portfolio__footer__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .kotiko__portfolio__footer__pagination__col-nav {
+      flex-basis: 240px;
+      .kotiko__portfolio__footer__nav {
+        display: flex;
+        align-items: center;
+        color: #050505;
+        &:hover .kotiko__portfolio__footer__nav__ico {
+          background-color: #f1c93f;
+          svg {
+            opacity: 1;
+          }
+        }
+        .kotiko__portfolio__footer__nav__ico {
+          flex-basis: 40px;
+          height: 40px;
+          border-radius: 20px;
+          display: flex;
+          min-width: 40px;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          background-color: #f7f7f7;
+
+        }
+        svg {
+          width: 20px;
+          height: auto;
+          opacity: 0.5;
+        }
+        span {
+          padding: 0 20px;
+          @include font_r(16px, 24px, 400);
+        }
+      }
+    }
+  }
+  .kotiko__portfolio__footer__pagination__all {
+    text-align: center;
+    a {
+      color: #050505;
+      @include font_r(16px, 24px, 800);
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@mixin font_caption($fontsize, $lineheight:"1.3") {
+  font-family: Raleway;
+  font-size: $fontsize;
+  line-height: $lineheight;
+  font-weight: 900;
+  margin: 0;
+}
+
+@mixin font_r($fontsize, $lineheight:"1.3", $fontweight:'400') {
+  font-family: Raleway;
+  font-size: $fontsize;
+  line-height: $lineheight;
+  font-weight: $fontweight;
+}

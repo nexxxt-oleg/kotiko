@@ -11083,438 +11083,6 @@ html {
   visibility: hidden !important;
 }
 
-.kotiko {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.kotiko__header__graf__svg {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
-
-.kotiko__header {
-  background-color: #f1c93e;
-}
-.kotiko__header .kotiko__header__top-row {
-  padding: 33px 0 0;
-}
-.kotiko__header .kotiko__header__text {
-  height: 648px;
-}
-.kotiko__header .kotiko__header__text h1 {
-  padding: 0;
-  margin: 0;
-}
-.kotiko__header .kotiko__header__graf {
-  position: relative;
-  height: 648px;
-}
-.kotiko__header .kotiko__header__graf .kotiko__header__graf__svg {
-  position: absolute;
-  top: 60px;
-  z-index: 10;
-  left: 15px;
-  display: block;
-}
-
-.kotiko__skills__title {
-  padding-top: 90px;
-  text-align: center;
-  padding-bottom: 90px;
-}
-.kotiko__skills__title h2 {
-  font-weight: bold;
-  color: #898989;
-}
-.kotiko__skills__title h2 b {
-  color: #000;
-}
-
-.kotiko__skills__caption {
-  text-align: center;
-  padding: 0 0 70px 0;
-  font-size: 36px;
-  line-height: 1;
-  font-weight: bold;
-  color: #050505;
-}
-
-.kotiko__skills__item {
-  padding-bottom: 50px;
-}
-.kotiko__skills__item svg {
-  max-width: 65px;
-  width: 100%;
-  height: auto;
-}
-.kotiko__skills__item h3 {
-  margin: 0;
-  font-family: 'Raleway';
-  font-weight: 800;
-  color: #050505;
-  font-size: 22px;
-  line-height: 28px;
-  padding-bottom: 20px;
-}
-
-p {
-  margin: 0;
-  font-family: 'Raleway';
-  font-size: 14px;
-  line-height: 24px;
-  color: #050505;
-}
-
-.kotiko__skills__list {
-  padding-bottom: 30px;
-}
-
-.kotiko__portfolio {
-  padding: 100px 0;
-  background-color: #f7f7f7;
-}
-.kotiko__portfolio .kotiko__portfolio__caption {
-  font-size: 36px;
-  line-height: 1.2;
-  font-weight: 800;
-  margin-bottom: 50px;
-  font-family: Raleway;
-}
-
-.kotiko__portfolio__slider {
-  margin: 0 -240px;
-}
-.kotiko__portfolio__slider .kotiko__portfolio__item {
-  padding: 0 15px;
-}
-.kotiko__portfolio__slider .kotiko__portfolio__item figure {
-  position: relative;
-  z-index: 1;
-  display: block;
-  margin: 0;
-}
-.kotiko__portfolio__slider .kotiko__portfolio__item figure img {
-  display: block;
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  height: 400px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.kotiko__portfolio__slider .kotiko__portfolio__item figure figcaption {
-  position: absolute;
-  z-index: 10;
-  bottom: 0;
-  left: 0;
-  width: 50%;
-  padding: 0 0 25px 25px;
-  font-size: 16px;
-  line-height: 1.3;
-  color: #fff;
-  font-family: Raleway;
-}
-.kotiko__portfolio__slider .kotiko__portfolio__item figure figcaption b {
-  display: block;
-  font-size: 22px;
-  font-weight: bold;
-}
-.kotiko__portfolio__slider .kotiko__portfolio__item.kotiko__portfolio__item--black figcaption {
-  color: #050505 !important;
-}
-
-.kotiko__portfolio__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 40px;
-}
-.kotiko__portfolio__nav .kotiko__portfolio__slider-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
-}
-.kotiko__portfolio__nav .slick-arrow {
-  margin-left: 20px;
-}
-
-.kotiko__link {
-  font-family: Raleway;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: underline;
-  color: #050505;
-}
-
-.slick-arrow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 40px;
-  height: 40px;
-  border: none;
-  border-radius: 20px;
-  background-color: #fff;
-  cursor: pointer;
-  position: relative;
-}
-.slick-arrow svg {
-  width: 24px;
-  height: auto;
-  opacity: 0.5;
-}
-.slick-arrow:hover {
-  background-color: #f1c93f;
-}
-.slick-arrow:hover svg {
-  opacity: 1;
-}
-
-div:focus,
-button:focus {
-  outline: none !important;
-}
-
-.kotiko__feedback__form__submit {
-  -ms-flex-preferred-size: 220px;
-      flex-basis: 220px;
-  max-width: 220px;
-  min-width: 220px;
-  padding-left: 30px;
-}
-.kotiko__feedback__form__submit .kotiko__submit {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  cursor: pointer;
-  width: 100%;
-  height: 190px;
-  border: 3px solid #050505;
-  background-color: transparent;
-}
-.kotiko__feedback__form__submit .kotiko__submit span {
-  text-align: center;
-  display: block;
-  font-size: 20px;
-  font-weight: bold;
-  position: relative;
-  z-index: 10;
-  color: #050505;
-}
-.kotiko__feedback__form__submit .kotiko__submit span svg {
-  display: block;
-  margin: 0 auto 15px;
-}
-
-.kotiko__feedback__form__inner {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-.kotiko__feedback {
-  background-color: #f1c93f;
-  padding: 75px 80px 70px;
-  margin: 90px 0 110px;
-}
-.kotiko__feedback .kotiko__feedback__caption {
-  padding: 0 0 60px;
-  text-align: center;
-  font-size: 30px;
-  line-height: 1.2;
-  font-weight: 800;
-  font-family: 'Raleway';
-}
-
-.kotiko__carusel:not(.slick-initialized) {
-  overflow: hidden;
-  width: 1000%;
-}
-.kotiko__carusel:not(.slick-initialized) > div {
-  float: left;
-}
-
-.kotiko__input__wrapper {
-  position: relative;
-}
-.kotiko__input__wrapper .kotiko__input__file {
-  opacity: 0;
-  position: absolute;
-  z-index: -1;
-  overflow: hidden;
-  width: 0.4px;
-  height: 0.4px;
-}
-.kotiko__input__wrapper .kotiko__input__label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  cursor: pointer;
-  padding-left: 30px;
-  height: 22px;
-  background: url("../img/file.svg") 0 50% no-repeat;
-  background-size: auto 20px;
-}
-.kotiko__input__wrapper .kotiko__input__label span {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 500;
-  font-family: 'Raleway';
-  color: #050505;
-  display: inline-block;
-  border-bottom: 1px dotted #050505;
-}
-
-.kotiko__label-chekbox {
-  display: block;
-}
-.kotiko__label-chekbox input {
-  display: none;
-}
-.kotiko__label-chekbox span {
-  position: relative;
-  display: block;
-  padding-left: 30px;
-  height: auto !important;
-  color: #050505;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 500;
-  font-family: 'Raleway';
-}
-
-.kotiko__footer__wrap {
-  border-top: 1px solid #f7f7f7;
-  border-bottom: 1px solid #f7f7f7;
-  padding: 40px 0;
-}
-
-.kotiko__footer .nav--soc {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
-}
-.kotiko__footer .nav--soc li {
-  padding-left: 15px;
-}
-.kotiko__footer .nav--soc li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #f7f7f7;
-}
-.kotiko__footer .nav--soc li a svg {
-  width: 20px;
-  height: 20px;
-}
-.kotiko__footer .nav--soc li a:hover {
-  text-decoration: none;
-  background-color: #f1c93f;
-}
-.kotiko__footer .kotiko__footer__nav {
-  height: 30px;
-  line-height: 30px;
-}
-.kotiko__footer .kotiko__footer__nav .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 30px;
-  line-height: 30px;
-}
-.kotiko__footer .kotiko__footer__nav .nav li {
-  padding-right: 30px;
-  height: 30px;
-}
-
-.kotiko__footer__nav__link {
-  position: relative;
-  display: inline-block;
-  color: #050505;
-  font-family: 'Raleway';
-  font-size: 16px;
-  line-height: 24px;
-  border-bottom: 1px solid transparent;
-  padding: 0;
-}
-.kotiko__footer__nav__link::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  font-family: 'Raleway';
-  font-size: 16px;
-  line-height: 24px;
-  max-width: 0;
-  border-bottom: 1px solid #f1c93f;
-  color: #f1c93f;
-  content: attr(data-hover);
-  -webkit-transition: max-width 0.3s;
-  transition: max-width 0.3s;
-  white-space: nowrap;
-}
-.kotiko__footer__nav__link:hover::before {
-  max-width: 100%;
-}
-
-.kotiko__footer__bottom {
-  padding: 30px 0;
-}
-.kotiko__footer__bottom a, .kotiko__footer__bottom span {
-  color: #050505;
-  font-family: 'Raleway';
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.input-field span.error {
-  position: absolute;
-  color: red;
-  font-size: 12px;
-  line-height: 16px;
-  display: block;
-  margin-top: -7px;
-}
-
 @-webkit-keyframes box1_fadeIn {
   from {
     opacity: 0;
@@ -12155,6 +11723,669 @@ button:focus {
 .cot {
   -webkit-animation: kot_animate 8s ease-in infinite;
           animation: kot_animate 8s ease-in infinite;
+}
+
+.kotiko__header--portfolio {
+  padding-bottom: 310px;
+}
+.kotiko__header--portfolio .kotiko__portfolio-desc {
+  padding-top: 100px;
+  min-height: 215px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.kotiko__header--portfolio .kotiko__portfolio-desc h1 {
+  font-family: Raleway;
+  font-size: "44px";
+  line-height: 1.3;
+  font-weight: 900;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.kotiko__header--portfolio .kotiko__portfolio-desc p {
+  font-family: Raleway;
+  font-size: "18px";
+  line-height: 24px;
+  font-weight: 500;
+}
+.kotiko__header--portfolio.kotiko__header--web2print {
+  background-image: -webkit-gradient(linear, left top, right top, from(#f4f9fc), to(#c7def5));
+  background-image: linear-gradient(90deg, #f4f9fc 0%, #c7def5 100%);
+}
+
+.kotiko__portfolio__adv {
+  position: relative;
+  z-index: 10;
+  margin-top: -260px;
+}
+.kotiko__portfolio__adv .kotiko__portfolio__adv__pc {
+  padding-bottom: 110px;
+  display: block;
+}
+.kotiko__portfolio__adv .kotiko__portfolio__adv__pc img {
+  margin: 0 auto;
+  display: block;
+}
+
+.kotiko__portfolio__full-img {
+  display: block;
+  padding: 50px 0;
+}
+.kotiko__portfolio__full-img img {
+  display: block;
+  margin: 0 auto;
+}
+
+.kotiko__portfolio__footer {
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__link-site {
+  display: block;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #050505;
+  font-family: Raleway;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 800;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__link-site .kotiko__portfolio__footer__link-site__ico {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #c7def5;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination .kotiko__portfolio__footer__pagination__col-nav {
+  -ms-flex-preferred-size: 240px;
+      flex-basis: 240px;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination .kotiko__portfolio__footer__pagination__col-nav .kotiko__portfolio__footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #050505;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination .kotiko__portfolio__footer__pagination__col-nav .kotiko__portfolio__footer__nav:hover .kotiko__portfolio__footer__nav__ico {
+  background-color: #f1c93f;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination .kotiko__portfolio__footer__pagination__col-nav .kotiko__portfolio__footer__nav:hover .kotiko__portfolio__footer__nav__ico svg {
+  opacity: 1;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination .kotiko__portfolio__footer__pagination__col-nav .kotiko__portfolio__footer__nav .kotiko__portfolio__footer__nav__ico {
+  -ms-flex-preferred-size: 40px;
+      flex-basis: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+  background-color: #f7f7f7;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination .kotiko__portfolio__footer__pagination__col-nav .kotiko__portfolio__footer__nav svg {
+  width: 20px;
+  height: auto;
+  opacity: 0.5;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination .kotiko__portfolio__footer__pagination__col-nav .kotiko__portfolio__footer__nav span {
+  padding: 0 20px;
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination__all {
+  text-align: center;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination__all a {
+  color: #050505;
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+.kotiko__portfolio__footer .kotiko__portfolio__footer__pagination__all a:hover {
+  text-decoration: none;
+}
+
+.kotiko {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.kotiko__header__graf__svg {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.kotiko__header.kotiko__header--home {
+  background-color: #f1c93e;
+}
+.kotiko__header .kotiko__header__top-row {
+  padding: 33px 0 0;
+}
+.kotiko__header .kotiko__header__text {
+  height: 648px;
+}
+.kotiko__header .kotiko__header__text h1 {
+  padding: 0;
+  margin: 0;
+}
+.kotiko__header .kotiko__header__graf {
+  position: relative;
+  height: 648px;
+}
+.kotiko__header .kotiko__header__graf .kotiko__header__graf__svg {
+  position: absolute;
+  top: 60px;
+  z-index: 10;
+  left: 15px;
+  display: block;
+}
+
+.kotiko__skills__title {
+  padding-top: 90px;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.kotiko__skills__title h2 {
+  font-weight: bold;
+  color: #898989;
+}
+.kotiko__skills__title h2 b {
+  color: #000;
+}
+
+.kotiko__skills__caption {
+  text-align: center;
+  padding: 0 0 70px 0;
+  font-size: 36px;
+  line-height: 1;
+  font-weight: bold;
+  color: #050505;
+}
+
+.kotiko__skills__item {
+  padding-bottom: 50px;
+}
+.kotiko__skills__item svg {
+  max-width: 65px;
+  width: 100%;
+  height: auto;
+}
+.kotiko__skills__item h3 {
+  margin: 0;
+  font-family: 'Raleway';
+  font-weight: 800;
+  color: #050505;
+  font-size: 22px;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 14px;
+  line-height: 24px;
+  color: #050505;
+}
+
+.kotiko__skills__list {
+  padding-bottom: 30px;
+}
+
+.kotiko__portfolio {
+  padding: 100px 0;
+  background-color: #f7f7f7;
+}
+.kotiko__portfolio .kotiko__portfolio__caption {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 50px;
+  font-family: Raleway;
+}
+
+.kotiko__portfolio__slider {
+  margin: 0 -240px;
+}
+.kotiko__portfolio__slider .kotiko__portfolio__item {
+  padding: 0 15px;
+}
+.kotiko__portfolio__slider .kotiko__portfolio__item figure {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 0;
+}
+.kotiko__portfolio__slider .kotiko__portfolio__item figure img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.kotiko__portfolio__slider .kotiko__portfolio__item figure figcaption {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  padding: 0 0 25px 25px;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #fff;
+  font-family: Raleway;
+}
+.kotiko__portfolio__slider .kotiko__portfolio__item figure figcaption b {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+}
+.kotiko__portfolio__slider .kotiko__portfolio__item.kotiko__portfolio__item--black figcaption {
+  color: #050505 !important;
+}
+
+.kotiko__portfolio__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+}
+.kotiko__portfolio__nav .kotiko__portfolio__slider-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+.kotiko__portfolio__nav .slick-arrow {
+  margin-left: 20px;
+}
+
+.kotiko__link {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #050505;
+}
+
+.slick-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+.slick-arrow svg {
+  width: 24px;
+  height: auto;
+  opacity: 0.5;
+}
+.slick-arrow:hover {
+  background-color: #f1c93f;
+}
+.slick-arrow:hover svg {
+  opacity: 1;
+}
+
+div:focus,
+button:focus {
+  outline: none !important;
+}
+
+.kotiko__feedback__form__submit {
+  -ms-flex-preferred-size: 220px;
+      flex-basis: 220px;
+  max-width: 220px;
+  min-width: 220px;
+  padding-left: 30px;
+}
+.kotiko__feedback__form__submit .kotiko__submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  width: 100%;
+  height: 190px;
+  border: 3px solid #050505;
+  background-color: transparent;
+}
+.kotiko__feedback__form__submit .kotiko__submit span {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
+  color: #050505;
+}
+.kotiko__feedback__form__submit .kotiko__submit span svg {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.kotiko__feedback__form__inner {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.kotiko__feedback {
+  background-color: #f1c93f;
+  padding: 75px 80px 70px;
+  margin: 90px 0 110px;
+}
+.kotiko__feedback .kotiko__feedback__caption {
+  padding: 0 0 60px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 800;
+  font-family: 'Raleway';
+}
+
+.kotiko__carusel:not(.slick-initialized) {
+  overflow: hidden;
+  width: 1000%;
+}
+.kotiko__carusel:not(.slick-initialized) > div {
+  float: left;
+}
+
+.kotiko__input__wrapper {
+  position: relative;
+}
+.kotiko__input__wrapper .kotiko__input__file {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  width: 0.4px;
+  height: 0.4px;
+}
+.kotiko__input__wrapper .kotiko__input__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  padding-left: 30px;
+  height: 22px;
+  background: url("../img/file.svg") 0 50% no-repeat;
+  background-size: auto 20px;
+}
+.kotiko__input__wrapper .kotiko__input__label span {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: 'Raleway';
+  color: #050505;
+  display: inline-block;
+  border-bottom: 1px dotted #050505;
+}
+
+.kotiko__label-chekbox {
+  display: block;
+}
+.kotiko__label-chekbox input {
+  display: none;
+}
+.kotiko__label-chekbox span {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  height: auto !important;
+  color: #050505;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: 'Raleway';
+}
+
+.kotiko__footer__wrap {
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  padding: 40px 0;
+}
+
+.kotiko__footer .nav--soc {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+.kotiko__footer .nav--soc li {
+  padding-left: 15px;
+}
+.kotiko__footer .nav--soc li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+}
+.kotiko__footer .nav--soc li a svg {
+  width: 20px;
+  height: 20px;
+}
+.kotiko__footer .nav--soc li a:hover {
+  text-decoration: none;
+  background-color: #f1c93f;
+}
+.kotiko__footer .kotiko__footer__nav {
+  height: 30px;
+  line-height: 30px;
+}
+.kotiko__footer .kotiko__footer__nav .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  line-height: 30px;
+}
+.kotiko__footer .kotiko__footer__nav .nav li {
+  padding-right: 30px;
+  height: 30px;
+}
+
+.kotiko__footer__nav__link {
+  position: relative;
+  display: inline-block;
+  color: #050505;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 24px;
+  border-bottom: 1px solid transparent;
+  padding: 0;
+}
+.kotiko__footer__nav__link::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 0;
+  border-bottom: 1px solid #f1c93f;
+  color: #f1c93f;
+  content: attr(data-hover);
+  -webkit-transition: max-width 0.3s;
+  transition: max-width 0.3s;
+  white-space: nowrap;
+}
+.kotiko__footer__nav__link:hover::before {
+  max-width: 100%;
+}
+
+.kotiko__footer__bottom {
+  padding: 30px 0;
+}
+.kotiko__footer__bottom a, .kotiko__footer__bottom span {
+  color: #050505;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.input-field span.error {
+  position: absolute;
+  color: red;
+  font-size: 12px;
+  line-height: 16px;
+  display: block;
+  margin-top: -7px;
+}
+
+.kotiko__text-box {
+  padding-bottom: 50px;
+}
+.kotiko__text-box h2 {
+  margin: 0;
+  padding-bottom: 30px;
+  font-family: Raleway;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 800;
+}
+.kotiko__text-box p {
+  font-family: Raleway;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.kotiko__text-box ul {
+  margin: 0;
+  list-style: none;
+}
+.kotiko__text-box ul li {
+  position: relative;
+  padding-left: 35px;
+  font-family: Raleway;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.kotiko__text-box ul li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 0;
+  width: 20px;
+  height: 1px;
+  background-color: #1c549c;
+}
+.kotiko__text-box h3 {
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.kotiko__text-box h4 {
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.kotiko__text-box .kotiko__text-box__item__pic {
+  padding-bottom: 30px;
+}
+.kotiko__text-box .kotiko__text-box__item__pic svg {
+  display: block;
+  margin: 0 auto;
+}
+.kotiko__text-box .kotiko__portfolio__img-shadow img {
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pb-6 {
+  padding-bottom: 50px;
 }
 
 @media (max-width: 991px) {

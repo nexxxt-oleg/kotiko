@@ -9,7 +9,9 @@
   height: auto;
 }
 .kotiko__header {
-  background-color: #f1c93e;
+  &.kotiko__header--home {
+    background-color: #f1c93e;
+  }
   .kotiko__header__top-row {
     padding: 33px 0 0;
   }
@@ -373,4 +375,65 @@ button:focus{
   line-height: 16px;
   display: block;
   margin-top: -7px;
+}
+.kotiko__text-box {
+  padding-bottom: 50px;
+  h2 {
+    margin: 0;
+    padding-bottom: 30px;
+    @include font_r(30px, 36px, 800);
+  }
+  p {
+    @include font_r(15px, 24px, 400);
+  }
+  ul {
+    margin: 0;
+    list-style: none;
+    li {
+      position: relative;
+      padding-left: 35px;
+      @include font_r(15px, 24px, 400);
+      padding-bottom: 10px;
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 10px;
+        left: 0;
+        width: 20px;
+        height: 1px;
+        background-color: #1c549c;
+      }
+    }
+  }
+  h3 {
+    @include font_r(24px, 30px, 600);
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  h4 {
+    @include font_r(18px, 24px, 600);
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  .kotiko__text-box__item__pic {
+    padding-bottom: 30px;
+    svg {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .kotiko__portfolio__img-shadow {
+    img {
+      display: block;
+      margin: 0 auto;
+      -webkit-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+.pb-6 {
+  padding-bottom: 50px;
 }
