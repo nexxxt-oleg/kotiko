@@ -109,4 +109,8 @@ jQuery(document).ready(function ($) {
 
 
 });
-new Vivus('mainSvg', {duration: 100});
+
+if ($('#mainSvg').length > 0) {
+    new Vivus('mainSvg', {duration: 100});
+}
+

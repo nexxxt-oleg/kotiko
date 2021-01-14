@@ -425,15 +425,30 @@ button:focus{
     }
   }
   .kotiko__portfolio__img-shadow {
+    position: relative;
+    z-index: 1;
+    display: block;
     img {
       display: block;
       margin: 0 auto;
       -webkit-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 10;
     }
   }
 }
 .pb-6 {
   padding-bottom: 50px;
+}
+.kotiko__text-box--white {
+  h1,
+  p {
+    color: #fff;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
