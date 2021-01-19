@@ -23,6 +23,11 @@
       justify-content: center;
     }
   }
+  .kotiko__portfolio__granit-img1,
+  .kotiko__portfolio__granit-img2 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -69,6 +74,40 @@
       }
     }
   }
+  .kotiko__portfolio__footer__pagination {
+    .kotiko__portfolio__footer__pagination__col-nav {
+      span {
+        display: none;
+      }
+    }
+  }
+  .kotiko__portfolio__footer .kotiko__portfolio__footer__pagination .kotiko__portfolio__footer__pagination__col-nav {
+    flex-basis: 40px !important;
+  }
+}
+@media (max-width: 575px) {
+  .kotiko__header--portfolio {
+    padding-bottom: 200px;
+  }
+  .kotiko__portfolio__adv {
+    margin-top: -170px;
+  }
+  .pl-1 {
+    padding-left: 15px !important;
+  }
+  .kotiko__footer__wrap {
+    text-align: center;
+    .kotiko__footer__logo {
+      display: block;
+      width: 160px;
+      margin: 0 auto;
+    }
+  }
+  .kotiko__footer .nav--soc {
+    justify-content: center !important;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
 }
 
 @media (max-width: 460px) {
@@ -92,6 +131,15 @@
       line-height: 1.3;
     }
   }
+  .kotiko__text-box h2,
+  .kotiko__portfolio__footer .kotiko__portfolio__footer__link-site {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  .kotiko__header--portfolio .kotiko__portfolio-desc h1 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
   .kotiko__skills__caption {
     font-size: 24px;
     line-height: 1.3;
@@ -108,6 +156,12 @@
   .kotiko__feedback .kotiko__feedback__caption {
     font-size: 20px;
     padding-bottom: 0;
+  }
+  .kotiko__header--portfolio {
+    padding-bottom: 100px;
+  }
+  .kotiko__portfolio__adv {
+    margin-top: -70px;
   }
 }
 

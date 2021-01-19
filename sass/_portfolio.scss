@@ -311,3 +311,11 @@
     background-image: linear-gradient( 100deg, rgb(53,53,53) 0%, rgb(0,0,0) 100%);
 
 }
+.kotiko__portfolio__img-mob {
+  width: 100%;
+  display: block;
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+}
